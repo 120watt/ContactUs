@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  height: 100%; /* Ensures the body and html take the full height */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+canvas {
+  display: block; /* Prevents the canvas from being treated as an inline element */
+}
+
+#moon-container {
+  position: absolute; 
+  left:250px;
+  top:100px;/* Make it relative to flow with the layout */
+  width: 300px; /* Fixed width for the moon */
+  height: 300px; /* Fixed height for the moon */
+  margin: 0 ; /* Center horizontally */
+}
+
+
+#moon-container {
+      margin-top: 20px; /* Add space above the moon */
+      position: relative; /* Keep it relative for proper flow */
+      top: auto; /* Reset any top positioning */
+  }
