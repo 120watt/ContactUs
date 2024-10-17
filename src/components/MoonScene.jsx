@@ -74,16 +74,10 @@ const MoonScene = () => {
   return (
     <div
       id="moon-container"
-      className='relative z-20'
-      style={{
-        left:'800px',
-        top:'-500px',
-        width: '300px',
-        height: '300px',
-        margin: '0 auto', // Center horizontally
-      }}
+      className="relative z-10 mx-auto sm:mx-0 w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] top-[-400px] sm:top-[-500px]"
     />
   );
+  
 };
 
 export default MoonScene;
